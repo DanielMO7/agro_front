@@ -1,0 +1,72 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.egg-info/
+.Python
+.python-version
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# === FastAPI (uvicorn logs, etc) ===
+*.log
+
+# === IDEs ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Migrations ===
+alembic/versions/*.pyc
+alembic/versions/*.pyo
+alembic/versions/*.pyd
+
+# === Environment variables ===
+.env
+.env.*
+
+# === Pytest and coverage ===
+htmlcov/
+.coverage
+.tox/
+.cache/
+pytest_cache/
+
+# === Build artifacts ===
+build/
+dist/
+*.egg
+*.egg-info/
+.eggs/
+MANIFEST
+
+# === Docker ===
+*.pid
+*.db
+*.sqlite3
+docker-compose.override.yml
+
+# === mypy ===
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# === Pylint ===
+.pylint.d/
+
+# === VSCode settings backup ===
+.vscode/
+
+# === Optional node stuff ===
+node_modules/
